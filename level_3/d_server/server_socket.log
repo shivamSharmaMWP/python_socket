@@ -1,0 +1,27 @@
+2020-07-31 18:14:41,927: DEBUG: ****** connected client
+2020-07-31 18:14:41,933: DEBUG: first hi
+2020-07-31 18:14:41,934: INFO: sending to comm server
+2020-07-31 18:14:42,117: ERROR: error in sending to commgateway rasa..
+2020-07-31 18:14:42,118: ERROR: HTTPConnectionPool(host='d_comm', port=8080): Max retries exceeded with url: /user-message/jovensalud_1133556 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4deb2987d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2020-07-31 18:15:13,300: DEBUG: ****** connected client
+2020-07-31 18:15:13,308: DEBUG: first hi
+2020-07-31 18:15:13,310: INFO: sending to comm server
+2020-07-31 18:15:13,314: ERROR: error in sending to commgateway rasa..
+2020-07-31 18:15:13,314: ERROR: HTTPConnectionPool(host='d_comm', port=8080): Max retries exceeded with url: /user-message/jovensalud_1133556 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3e8679b150>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2020-07-31 18:15:13,515: DEBUG: ****** connected client
+2020-07-31 18:15:49,641: DEBUG: bot message came back from somewhere... something detected33
+2020-07-31 18:15:50,060: DEBUG: bot message came back from somewhere... something detected33
+2020-07-31 18:15:53,599: DEBUG: bot message came back from somewhere... something detected33
+2020-07-31 18:16:28,711: DEBUG: ****** connected client
+2020-07-31 18:16:28,718: DEBUG: first hi
+2020-07-31 18:16:28,718: INFO: sending to comm server
+2020-07-31 18:16:28,723: INFO: commgateway.. just responded for request : <Response [200]>
+2020-07-31 18:17:09,581: DEBUG: ****** connected client
+2020-07-31 18:17:09,588: DEBUG: first hi
+2020-07-31 18:17:09,588: INFO: sending to comm server
+2020-07-31 18:17:09,596: INFO: commgateway.. just responded for request : <Response [200]>
+2020-07-31 18:17:39,834: DEBUG: ****** connected client
+2020-07-31 18:17:39,869: DEBUG: bot message came back from somewhere... something detected33
+2020-07-31 18:20:46,330: DEBUG: bot message came back from somewhere... something detected33
+2020-07-31 18:20:46,614: DEBUG: bot message came back from somewhere... something detected33
+2020-07-31 18:20:46,727: DEBUG: bot message came back from somewhere... something detected33

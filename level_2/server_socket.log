@@ -1,0 +1,308 @@
+2020-07-31 22:16:03,473: DEBUG: ****** connected client
+2020-07-31 22:16:11,113: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 22:16:17,006: DEBUG: ****** connected client
+2020-07-31 22:17:46,071: DEBUG: ****** connected client
+2020-07-31 22:17:48,414: DEBUG: ****** connected client
+2020-07-31 22:17:49,482: DEBUG: ****** connected client
+2020-07-31 22:18:43,615: DEBUG: ****** connected client
+2020-07-31 22:19:18,168: DEBUG: ****** connected client
+2020-07-31 22:19:20,234: DEBUG: ****** connected client
+2020-07-31 22:19:29,009: DEBUG: ****** connected client
+2020-07-31 22:19:33,220: DEBUG: ****** connected client
+2020-07-31 22:20:48,576: DEBUG: ****** connected client
+2020-07-31 22:20:53,307: DEBUG: ****** connected client
+2020-07-31 22:20:57,914: DEBUG: ****** connected client
+2020-07-31 22:21:12,529: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 22:21:18,285: DEBUG: ****** connected client
+2020-07-31 22:21:18,289: DEBUG: first hi
+2020-07-31 22:22:03,127: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 22:22:04,639: DEBUG: ****** connected client
+2020-07-31 22:22:04,643: DEBUG: first hi
+2020-07-31 22:22:07,943: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 22:22:10,088: DEBUG: ****** connected client
+2020-07-31 22:22:10,093: DEBUG: first hi
+2020-07-31 22:22:14,588: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 22:32:39,532: DEBUG:  i am processing here..user
+2020-07-31 22:32:39,533: ERROR:  and i am done.
+2020-07-31 22:33:27,697: DEBUG:  i am processing here..user
+2020-07-31 22:33:27,698: ERROR:  and i am done.
+2020-07-31 22:33:32,743: DEBUG:  i am processing here..user
+2020-07-31 22:33:32,744: ERROR:  and i am done.
+2020-07-31 22:33:37,602: DEBUG:  i am processing here..user
+2020-07-31 22:33:37,603: ERROR:  and i am done.
+2020-07-31 22:33:37,952: DEBUG:  i am processing here..user
+2020-07-31 22:33:37,953: ERROR:  and i am done.
+2020-07-31 22:33:41,593: DEBUG:  i am processing here..858855
+2020-07-31 22:33:41,593: ERROR:  and i am done.
+2020-07-31 22:33:45,421: DEBUG:  i am processing here..858855
+2020-07-31 22:33:45,422: ERROR:  and i am done.
+2020-07-31 22:35:36,479: DEBUG: ****** connected client
+2020-07-31 22:35:36,483: DEBUG: first hi
+2020-07-31 22:35:36,483: INFO: sending to comm server
+2020-07-31 22:35:36,483: ERROR: error in sending to commgateway rasa..
+2020-07-31 22:35:36,483: ERROR: name 'HEADERS' is not defined
+2020-07-31 22:36:03,122: DEBUG: ****** connected client
+2020-07-31 22:36:03,128: DEBUG: first hi
+2020-07-31 22:36:03,128: INFO: sending to comm server
+2020-07-31 22:36:03,128: ERROR: error in sending to commgateway rasa..
+2020-07-31 22:36:03,128: ERROR: name 'request_data' is not defined
+2020-07-31 22:36:16,273: DEBUG: ****** connected client
+2020-07-31 22:36:16,331: DEBUG: first hi
+2020-07-31 22:36:16,331: INFO: sending to comm server
+2020-07-31 22:36:16,350: INFO: commgateway.. just responded for request : <Response [405]>
+2020-07-31 22:36:20,258: DEBUG: ****** connected client
+2020-07-31 22:36:20,263: DEBUG: first hi
+2020-07-31 22:36:20,264: INFO: sending to comm server
+2020-07-31 22:36:20,268: INFO: commgateway.. just responded for request : <Response [405]>
+2020-07-31 22:36:48,515: DEBUG: ****** connected client
+2020-07-31 22:36:48,519: DEBUG: first hi
+2020-07-31 22:36:48,519: INFO: sending to comm server
+2020-07-31 22:36:48,522: DEBUG:  i am processing here..jovensalud_1133556
+2020-07-31 22:36:48,522: ERROR:  and i am done.
+2020-07-31 22:36:48,523: INFO: commgateway.. just responded for request : <Response [200]>
+2020-07-31 22:37:00,097: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 22:37:01,498: DEBUG: ****** connected client
+2020-07-31 22:37:01,502: DEBUG: first hi
+2020-07-31 22:37:01,502: INFO: sending to comm server
+2020-07-31 22:37:01,504: DEBUG:  i am processing here..jovensalud_1133556
+2020-07-31 22:37:01,505: ERROR:  and i am done.
+2020-07-31 22:37:01,505: INFO: commgateway.. just responded for request : <Response [200]>
+2020-07-31 22:37:43,763: DEBUG:  bot processed here ..7777
+2020-07-31 22:37:43,764: ERROR:  and bot is done.
+2020-07-31 22:39:59,991: DEBUG: ****** connected client
+2020-07-31 22:40:00,005: DEBUG: first hi
+2020-07-31 22:40:00,005: INFO: sending to comm server
+2020-07-31 22:40:00,017: DEBUG:  i am processing here..jovensalud_1133556
+2020-07-31 22:40:00,018: ERROR:  and i am done.
+2020-07-31 22:40:00,021: INFO: commgateway.. just responded for request : <Response [200]>
+2020-07-31 22:40:56,607: DEBUG: ****** connected client
+2020-07-31 22:40:56,636: DEBUG: first hi
+2020-07-31 22:40:56,637: INFO: sending to comm server
+2020-07-31 22:40:56,651: DEBUG:  i am processing here..jovensalud_1133556
+2020-07-31 22:40:56,652: ERROR:  and i am done.
+2020-07-31 22:40:56,659: INFO: commgateway.. just responded for request : <Response [200]>
+2020-07-31 22:41:48,550: DEBUG: ****** connected client
+2020-07-31 22:41:48,556: DEBUG: first hi
+2020-07-31 22:41:48,556: INFO: sending to comm server
+2020-07-31 22:41:48,563: DEBUG:  i am processing here..jovensalud_1133556
+2020-07-31 22:41:48,563: ERROR:  and i am done.
+2020-07-31 22:41:48,564: INFO: commgateway.. just responded for request : <Response [200]>
+2020-07-31 22:41:50,491: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 22:42:45,849: DEBUG: ****** connected client
+2020-07-31 22:43:12,768: DEBUG: ****** connected client
+2020-07-31 22:43:12,773: DEBUG: first hi
+2020-07-31 22:43:12,774: INFO: sending to comm server
+2020-07-31 22:43:12,777: DEBUG:  i am processing here..jovensalud_1133556
+2020-07-31 22:43:12,777: ERROR:  and i am done.
+2020-07-31 22:43:12,778: INFO: commgateway.. just responded for request : <Response [200]>
+2020-07-31 22:43:35,821: DEBUG: ****** connected client
+2020-07-31 22:43:35,839: DEBUG: ****** connected client
+2020-07-31 22:43:35,853: DEBUG: first hi
+2020-07-31 22:43:35,854: INFO: sending to comm server
+2020-07-31 22:43:35,861: DEBUG:  i am processing here..jovensalud_1133556
+2020-07-31 22:43:35,862: ERROR:  and i am done.
+2020-07-31 22:43:35,863: INFO: commgateway.. just responded for request : <Response [200]>
+2020-07-31 22:46:16,366: DEBUG:  bot processed here ..000000
+2020-07-31 22:46:16,366: ERROR:  and bot is done.
+2020-07-31 22:46:16,369: DEBUG: bot message came back from somewhere... something detected000000
+2020-07-31 22:47:00,892: DEBUG:  bot processed here ..000000
+2020-07-31 22:47:00,893: ERROR:  and bot is done.
+2020-07-31 22:47:00,900: DEBUG: bot message came back from somewhere... something detected000000
+2020-07-31 22:47:01,358: DEBUG:  bot processed here ..000000
+2020-07-31 22:47:01,359: ERROR:  and bot is done.
+2020-07-31 22:47:01,370: DEBUG: bot message came back from somewhere... something detected000000
+2020-07-31 22:47:01,608: DEBUG:  bot processed here ..000000
+2020-07-31 22:47:01,610: ERROR:  and bot is done.
+2020-07-31 22:47:01,623: DEBUG: bot message came back from somewhere... something detected000000
+2020-07-31 22:47:01,765: DEBUG:  bot processed here ..000000
+2020-07-31 22:47:01,766: ERROR:  and bot is done.
+2020-07-31 22:47:01,771: DEBUG: bot message came back from somewhere... something detected000000
+2020-07-31 22:47:01,901: DEBUG:  bot processed here ..000000
+2020-07-31 22:47:01,902: ERROR:  and bot is done.
+2020-07-31 22:47:01,909: DEBUG: bot message came back from somewhere... something detected000000
+2020-07-31 22:47:26,488: DEBUG:  bot processed here ..000000
+2020-07-31 22:47:26,489: ERROR:  and bot is done.
+2020-07-31 22:47:37,229: DEBUG:  bot processed here ..000000
+2020-07-31 22:47:37,230: ERROR:  and bot is done.
+2020-07-31 22:47:37,511: DEBUG:  bot processed here ..000000
+2020-07-31 22:47:37,512: ERROR:  and bot is done.
+2020-07-31 22:47:37,688: DEBUG:  bot processed here ..000000
+2020-07-31 22:47:37,691: ERROR:  and bot is done.
+2020-07-31 22:47:37,830: DEBUG:  bot processed here ..000000
+2020-07-31 22:47:37,831: ERROR:  and bot is done.
+2020-07-31 22:49:15,700: DEBUG: ****** connected client
+2020-07-31 22:49:18,782: DEBUG:  bot processed here ..000000
+2020-07-31 22:49:18,783: ERROR:  and bot is done.
+2020-07-31 22:49:18,789: DEBUG: bot message came back from somewhere... something detected000000
+2020-07-31 22:49:19,034: DEBUG:  bot processed here ..000000
+2020-07-31 22:49:19,035: ERROR:  and bot is done.
+2020-07-31 22:49:19,044: DEBUG: bot message came back from somewhere... something detected000000
+2020-07-31 22:49:19,217: DEBUG:  bot processed here ..000000
+2020-07-31 22:49:19,219: ERROR:  and bot is done.
+2020-07-31 22:49:19,231: DEBUG: bot message came back from somewhere... something detected000000
+2020-07-31 22:49:21,627: DEBUG:  bot processed here ..33
+2020-07-31 22:49:21,628: ERROR:  and bot is done.
+2020-07-31 22:49:21,635: DEBUG: bot message came back from somewhere... something detected33
+2020-07-31 22:49:56,974: DEBUG:  bot processed here ..33
+2020-07-31 22:49:56,976: ERROR:  and bot is done.
+2020-07-31 22:55:35,023: DEBUG: ****** connected client
+2020-07-31 22:55:56,616: DEBUG: ****** connected client
+2020-07-31 22:56:39,301: DEBUG:  bot processed here ..33
+2020-07-31 22:56:39,301: ERROR:  and bot is done.
+2020-07-31 22:57:16,133: DEBUG: ****** connected client
+2020-07-31 22:57:21,045: DEBUG:  bot processed here ..33
+2020-07-31 22:57:21,047: ERROR:  and bot is done.
+2020-07-31 22:57:21,056: DEBUG: bot message came back from somewhere... something detected33
+2020-07-31 23:00:28,581: DEBUG: ****** connected client
+2020-07-31 23:06:54,437: DEBUG: ****** connected client
+2020-07-31 23:07:00,811: DEBUG:  i am processing here..858855
+2020-07-31 23:07:00,811: ERROR:  and i am done.
+2020-07-31 23:07:09,254: DEBUG:  bot processed here ..33
+2020-07-31 23:07:09,255: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-07-31 23:08:09,585: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 23:08:14,155: DEBUG: ****** connected client
+2020-07-31 23:08:16,119: DEBUG:  bot processed here ..33
+2020-07-31 23:08:16,119: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-07-31 23:08:39,467: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 23:08:43,666: DEBUG: ****** connected client
+2020-07-31 23:08:45,701: DEBUG:  bot processed here ..33
+2020-07-31 23:08:45,701: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-07-31 23:08:46,313: DEBUG:  bot processed here ..33
+2020-07-31 23:08:46,314: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-07-31 23:09:59,694: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 23:10:03,850: DEBUG: ****** connected client
+2020-07-31 23:10:06,622: DEBUG:  bot processed here ..33None
+2020-07-31 23:10:06,623: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-07-31 23:11:10,764: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 23:11:11,945: DEBUG: ****** connected client
+2020-07-31 23:11:15,511: DEBUG:  bot processed here ..33True
+2020-07-31 23:11:15,513: DEBUG:  connection is still open
+2020-07-31 23:11:15,514: ERROR:  and bot is done.
+2020-07-31 23:11:15,524: DEBUG: bot message came back from somewhere... something detected33
+2020-07-31 23:11:49,819: DEBUG: ****** connected client
+2020-07-31 23:11:50,853: DEBUG:  bot processed here ..33True
+2020-07-31 23:11:50,854: DEBUG:  connection is still open
+2020-07-31 23:11:50,854: ERROR:  and bot is done.
+2020-07-31 23:11:50,859: DEBUG: bot message came back from somewhere... something detected33
+2020-07-31 23:12:02,119: DEBUG:  bot processed here ..33False
+2020-07-31 23:12:02,120: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-07-31 23:12:02,134: DEBUG: ****** connected client
+2020-07-31 23:12:02,155: DEBUG: simple connect statement, now sending data
+2020-07-31 23:12:02,156: ERROR:  and bot is done.
+2020-07-31 23:12:02,205: DEBUG: bot message came back from somewhere... something detected33
+2020-07-31 23:12:24,912: DEBUG:  bot processed here ..33False
+2020-07-31 23:12:24,914: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-07-31 23:12:25,595: DEBUG:  bot processed here ..33False
+2020-07-31 23:12:25,596: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-07-31 23:12:25,829: DEBUG:  bot processed here ..33False
+2020-07-31 23:12:25,830: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-07-31 23:12:26,048: DEBUG:  bot processed here ..33False
+2020-07-31 23:12:26,049: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-07-31 23:12:26,182: DEBUG:  bot processed here ..33False
+2020-07-31 23:12:26,182: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-07-31 23:12:43,349: DEBUG:  bot processed here ..33False
+2020-07-31 23:12:43,350: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-07-31 23:15:42,845: ERROR: error in connecting firstconnect_error() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "/home/shivam/.local/lib/python3.6/site-packages/socketio/client.py", line 277, in connect
+    engineio_path=socketio_path)
+  File "/home/shivam/.local/lib/python3.6/site-packages/engineio/client.py", line 190, in connect
+    url, headers, engineio_path)
+  File "/home/shivam/.local/lib/python3.6/site-packages/engineio/client.py", line 296, in _connect_polling
+    'Connection refused by the server')
+engineio.exceptions.ConnectionError: Connection refused by the server
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "comm_server.py", line 41, in <module>
+    sio.connect('http://localhost:7000')
+  File "/home/shivam/.local/lib/python3.6/site-packages/socketio/client.py", line 281, in connect
+    exc.args[1] if len(exc.args) > 1 else exc.args[0])
+  File "/home/shivam/.local/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+TypeError: connect_error() takes 0 positional arguments but 1 was given
+2020-07-31 23:16:07,302: ERROR: error in connecting first
+Traceback (most recent call last):
+  File "/home/shivam/.local/lib/python3.6/site-packages/socketio/client.py", line 277, in connect
+    engineio_path=socketio_path)
+  File "/home/shivam/.local/lib/python3.6/site-packages/engineio/client.py", line 190, in connect
+    url, headers, engineio_path)
+  File "/home/shivam/.local/lib/python3.6/site-packages/engineio/client.py", line 296, in _connect_polling
+    'Connection refused by the server')
+engineio.exceptions.ConnectionError: Connection refused by the server
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "comm_server.py", line 41, in <module>
+    sio.connect('http://localhost:7000')
+  File "/home/shivam/.local/lib/python3.6/site-packages/socketio/client.py", line 281, in connect
+    exc.args[1] if len(exc.args) > 1 else exc.args[0])
+  File "/home/shivam/.local/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+TypeError: connect_error() takes 0 positional arguments but 1 was given
+2020-07-31 23:16:13,333: ERROR: error in connecting first
+Traceback (most recent call last):
+  File "/home/shivam/.local/lib/python3.6/site-packages/socketio/client.py", line 277, in connect
+    engineio_path=socketio_path)
+  File "/home/shivam/.local/lib/python3.6/site-packages/engineio/client.py", line 190, in connect
+    url, headers, engineio_path)
+  File "/home/shivam/.local/lib/python3.6/site-packages/engineio/client.py", line 296, in _connect_polling
+    'Connection refused by the server')
+engineio.exceptions.ConnectionError: Connection refused by the server
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "comm_server.py", line 41, in <module>
+    sio.connect('http://localhost:7000')
+  File "/home/shivam/.local/lib/python3.6/site-packages/socketio/client.py", line 281, in connect
+    exc.args[1] if len(exc.args) > 1 else exc.args[0])
+  File "/home/shivam/.local/lib/python3.6/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+TypeError: connect_error() takes 0 positional arguments but 1 was given
+2020-07-31 23:19:57,597: DEBUG: ****** connected client
+2020-07-31 23:20:00,056: DEBUG: ****** connected client
+2020-07-31 23:20:00,060: DEBUG: first hi
+2020-07-31 23:20:00,060: INFO: sending to comm server
+2020-07-31 23:20:00,063: DEBUG:  i am processing here..jovensalud_1133556
+2020-07-31 23:20:00,064: ERROR:  and i am done.
+2020-07-31 23:20:00,065: INFO: commgateway.. just responded for request : <Response [200]>
+2020-07-31 23:20:16,009: DEBUG:  bot processed here ..33True
+2020-07-31 23:20:16,009: DEBUG:  connection is still open
+2020-07-31 23:20:16,010: ERROR:  and bot is done.
+2020-07-31 23:20:16,014: DEBUG: bot message came back from somewhere... something detected33
+2020-07-31 23:20:27,541: DEBUG:  i am processing here..858855
+2020-07-31 23:20:27,542: ERROR:  and i am done.
+2020-07-31 23:20:32,656: DEBUG:  i am processing here..858855
+2020-07-31 23:20:32,657: ERROR:  and i am done.
+2020-07-31 23:20:35,475: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 23:20:38,599: DEBUG: ****** connected client
+2020-07-31 23:20:38,603: DEBUG: first hi
+2020-07-31 23:20:38,603: INFO: sending to comm server
+2020-07-31 23:20:38,605: DEBUG:  i am processing here..jovensalud_1133556
+2020-07-31 23:20:38,605: ERROR:  and i am done.
+2020-07-31 23:20:38,606: INFO: commgateway.. just responded for request : <Response [200]>
+2020-07-31 23:21:56,596: DEBUG: ****** connected client
+2020-07-31 23:21:56,601: DEBUG: first hi
+2020-07-31 23:21:56,601: INFO: sending to comm server
+2020-07-31 23:21:56,604: DEBUG:  i am processing here..jovensalud_1133556
+2020-07-31 23:21:56,604: ERROR:  and i am done.
+2020-07-31 23:21:56,605: INFO: commgateway.. just responded for request : <Response [200]>
+2020-07-31 23:22:04,315: DEBUG:  i am processing here..858855
+2020-07-31 23:22:04,316: ERROR:  and i am done.
+2020-07-31 23:22:05,768: DEBUG:  bot processed here ..33False
+2020-07-31 23:22:05,769: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-07-31 23:22:05,778: DEBUG: ****** connected client
+2020-07-31 23:22:05,786: DEBUG: simple connect statement, now sending data
+2020-07-31 23:22:05,790: ERROR:  and bot is done.
+2020-07-31 23:22:05,840: DEBUG: bot message came back from somewhere... something detected33
+2020-07-31 23:22:50,650: DEBUG: ****** connected client
+2020-07-31 23:22:51,433: DEBUG: ****** connected client
+2020-07-31 23:22:51,451: DEBUG: first hi
+2020-07-31 23:22:51,452: INFO: sending to comm server
+2020-07-31 23:22:51,465: DEBUG:  i am processing here..jovensalud_1133556
+2020-07-31 23:22:51,465: ERROR:  and i am done.
+2020-07-31 23:22:51,467: INFO: commgateway.. just responded for request : <Response [200]>
+2020-07-31 23:23:41,835: DEBUG: ****** User disconnected from socketIO endpoint.

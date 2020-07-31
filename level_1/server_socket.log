@@ -1,0 +1,27 @@
+2020-07-31 22:16:03,473: DEBUG: ****** connected client
+2020-07-31 22:16:11,113: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 22:16:17,006: DEBUG: ****** connected client
+2020-07-31 22:17:46,071: DEBUG: ****** connected client
+2020-07-31 22:17:48,414: DEBUG: ****** connected client
+2020-07-31 22:17:49,482: DEBUG: ****** connected client
+2020-07-31 22:18:43,615: DEBUG: ****** connected client
+2020-07-31 22:19:18,168: DEBUG: ****** connected client
+2020-07-31 22:19:20,234: DEBUG: ****** connected client
+2020-07-31 22:19:29,009: DEBUG: ****** connected client
+2020-07-31 22:19:33,220: DEBUG: ****** connected client
+2020-07-31 22:20:48,576: DEBUG: ****** connected client
+2020-07-31 22:20:53,307: DEBUG: ****** connected client
+2020-07-31 22:20:57,914: DEBUG: ****** connected client
+2020-07-31 22:21:12,529: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 22:21:18,285: DEBUG: ****** connected client
+2020-07-31 22:21:18,289: DEBUG: first hi
+2020-07-31 22:22:03,127: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 22:22:04,639: DEBUG: ****** connected client
+2020-07-31 22:22:04,643: DEBUG: first hi
+2020-07-31 22:22:07,943: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 22:22:10,088: DEBUG: ****** connected client
+2020-07-31 22:22:10,093: DEBUG: first hi
+2020-07-31 22:22:14,588: DEBUG: ****** User disconnected from socketIO endpoint.
+2020-07-31 22:25:22,927: DEBUG: ****** connected client
+2020-07-31 22:25:22,931: DEBUG: first hi
+2020-07-31 22:25:25,319: DEBUG: ****** User disconnected from socketIO endpoint.

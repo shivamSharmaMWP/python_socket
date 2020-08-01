@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-python3 -u comm_server.py
-# uwsgi --ini=app.ini
+# python3 -u comm_server.py
+uwsgi --ini=app.ini

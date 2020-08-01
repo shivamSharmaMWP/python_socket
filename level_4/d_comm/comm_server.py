@@ -8,7 +8,7 @@ app = Flask(__name__)
 logger = LoggingHandler.getLogger('comm_server_')
 
 
-SocketStatic.initialize()
+# SocketStatic.initialize()
 
 
 

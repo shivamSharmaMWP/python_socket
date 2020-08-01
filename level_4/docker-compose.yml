@@ -1,16 +1,16 @@
 version: '3'
 services:
-  # nginx:
-  #   image: nginx:1.19.0
-  #   container_name: nginx
-  #   depends_on:
-  #       - d_server
-  #       - d_comm
-  #   volumes:
-  #       - ./nginx.conf:/etc/nginx/conf.d/default.conf
-  #       - shared:/opt/shared
-  #   ports:
-  #       - 80:80
+  nginx:
+    image: nginx:1.19.0
+    container_name: nginx
+    depends_on:
+        - d_server
+        - d_comm
+    volumes:
+        - ./nginx.conf:/etc/nginx/conf.d/default.conf
+        - shared:/opt/shared
+    ports:
+        - 80:80
 
   d_server:
     container_name: "d_socket_server"

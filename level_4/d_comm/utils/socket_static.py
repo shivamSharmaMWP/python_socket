@@ -9,7 +9,8 @@ class SocketStatic:
     SIO = None
     connectivity_status = None
 
-    _socket_url = 'http://d_server:7000'
+    _socket_url = 'http://nginx/'
+    # _socket_url = 'http://d_server:7000'
 
     def initialize():
 
@@ -24,6 +25,7 @@ class SocketStatic:
         def connect():
             SocketStatic.connectivity_status = True
             logger.info("comm connected!" + str(SocketStatic.connectivity_status))
+            # sio.emit('client_first', 'hi from comm_server side')
             # sio.emit('client_first', 'hi')
 
         @sio.event

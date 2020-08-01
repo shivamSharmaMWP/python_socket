@@ -15,7 +15,7 @@ logger = LoggingHandler.getLogger('server_')
 
 requests_to_socketid = {}
 HEADERS = {'content-type': 'application/json'}
-COMM_GATEWAY_URL = 'http://d_comm:8080/user-message/jovensalud_1133556'
+COMM_GATEWAY_URL = 'http://nginx/api/user-message/jj_1133556'
 
 
 @socketio.on('connect')

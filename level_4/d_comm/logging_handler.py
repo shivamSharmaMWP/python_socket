@@ -17,7 +17,7 @@ class LoggingHandler:
         l = logging.getLogger(logger_name)
         
         log_level = 'DEBUG'
-        formatter = logging.Formatter("%(asctime)s: %(levelname)s: %(message)s")
+        formatter = logging.Formatter("!!!!!!!!!!!!!!!!!!!!!! %(asctime)s: %(levelname)s: %(message)s")
 
         l.setLevel(log_level)
 

@@ -35,9 +35,9 @@ def user(userid):
 
 @app.route('/bot-message/<botid>')
 def bott(botid):
-    logger.debug(" bot processed here .." + botid + str(SocketStatic.connectivity_status))
+    logger.debug(" bot processed here .." + botid + " " + str(SocketStatic.connectivity_status))
    
-    status = SocketStatic.checkConnectivity()
+    SocketStatic.checkConnectivity()
     SocketStatic.SIO.emit('bot_message_came', 'something detected' + botid)
 
     logger.error(" and bot is done.")

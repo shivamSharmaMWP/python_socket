@@ -9,49 +9,52 @@ class SocketStatic:
     SIO = None
     connectivity_status = None
 
+    _socket_url = 'http://d_server:7000'
+
     def initialize():
 
         sio = socketio.Client(reconnection=True, reconnection_attempts=60, reconnection_delay=1)
         
         @sio.on('server_second')
         def on_message(data):
-            print('done ending the flow !' + data)
+            logger.info('done ending the flow !' + data)
             
 
         @sio.event
         def connect():
             SocketStatic.connectivity_status = True
-            print("comm connected!" + str(SocketStatic.connectivity_status))
+            logger.info("comm connected!" + str(SocketStatic.connectivity_status))
             # sio.emit('client_first', 'hi')
 
         @sio.event
         def connect_error():
-            print("The connection failed!")
+            logger.error("The connection failed!")
 
         @sio.event
         def disconnect():
             SocketStatic.connectivity_status = False
-            print("I'm disconnected!" + str(SocketStatic.connectivity_status))
+            logger.error("I'm disconnected!" + str(SocketStatic.connectivity_status))
 
 
         try:
-            sio.connect('http://d_server:7000')
+            sio.connect(SocketStatic._socket_url)
             # sio.wait()
         except Exception as e:
-            logger.exception("error in connecting first" + e)
+            logger.exception("error in connecting first" + str())
 
         SocketStatic.SIO = sio
 
 
     def checkConnectivity():
-                
-        if SocketStatic.connectivity_status == True:
-            logger.debug(" connection is still open")
+        if SocketStatic.connectivity_status == None:
+            SocketStatic.initialize()
+        elif SocketStatic.connectivity_status == True:
+            logger.info(" connection is still open")
         else: 
-            logger.debug(" connection is closed now.. writing logic for reconnecting")
+            logger.error(" connection is closed now.. writing logic for reconnecting")
 
             try:     # reconnecting
-                SocketStatic.SIO.connect('http://d_server:7000')
+                SocketStatic.SIO.connect(SocketStatic._socket_url)
             except Exception as e:
                 logger.exception("error in reconnecting" + str(e))
 

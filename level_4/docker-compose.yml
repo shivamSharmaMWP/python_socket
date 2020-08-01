@@ -1,0 +1,32 @@
+version: '3'
+services:
+  d_server:
+    container_name: "d_socket_server"
+    build: 
+      context: d_server
+    ports:
+      - "7000:7000"
+    volumes:
+      - ./d_server:/opt/workdir
+  
+  d_client:
+    container_name: "d_client_socket"
+    build: 
+      context: d_client
+    volumes:
+      - ./d_client:/opt/workdir
+    depends_on: 
+      - d_server
+
+  d_comm:
+    container_name: "d_comm_server"
+    build: 
+      context: d_comm
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./d_comm:/opt/workdir
+    depends_on: 
+      - d_server
+  
+      

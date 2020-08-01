@@ -1,0 +1,272 @@
+2020-07-31 18:15:44,272: DEBUG:  i am processing here..858855
+2020-07-31 18:15:44,273: ERROR:  and i am done.
+2020-07-31 18:15:44,740: DEBUG:  i am processing here..858855
+2020-07-31 18:15:44,740: ERROR:  and i am done.
+2020-07-31 18:15:49,624: DEBUG:  bot processed here ..33True
+2020-07-31 18:15:49,625: DEBUG:  connection is still open
+2020-07-31 18:15:49,627: ERROR:  and bot is done.
+2020-07-31 18:15:50,041: DEBUG:  bot processed here ..33True
+2020-07-31 18:15:50,042: DEBUG:  connection is still open
+2020-07-31 18:15:50,043: ERROR:  and bot is done.
+2020-07-31 18:15:53,581: DEBUG:  bot processed here ..33True
+2020-07-31 18:15:53,582: DEBUG:  connection is still open
+2020-07-31 18:15:53,585: ERROR:  and bot is done.
+2020-07-31 18:16:28,721: DEBUG:  i am processing here..jovensalud_1133556
+2020-07-31 18:16:28,722: ERROR:  and i am done.
+2020-07-31 18:17:09,594: DEBUG:  i am processing here..jovensalud_1133556
+2020-07-31 18:17:09,594: ERROR:  and i am done.
+2020-07-31 18:17:39,823: DEBUG:  bot processed here ..33False
+2020-07-31 18:17:39,823: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-07-31 18:17:39,852: DEBUG: simple connect statement, now sending data
+2020-07-31 18:17:39,852: ERROR:  and bot is done.
+2020-07-31 18:17:40,937: DEBUG:  i am processing here..858855
+2020-07-31 18:17:40,938: ERROR:  and i am done.
+2020-07-31 18:20:41,072: DEBUG:  i am processing here..858855
+2020-07-31 18:20:41,073: ERROR:  and i am done.
+2020-07-31 18:20:41,473: DEBUG:  i am processing here..858855
+2020-07-31 18:20:41,474: ERROR:  and i am done.
+2020-07-31 18:20:41,620: DEBUG:  i am processing here..858855
+2020-07-31 18:20:41,620: ERROR:  and i am done.
+2020-07-31 18:20:46,314: DEBUG:  bot processed here ..33True
+2020-07-31 18:20:46,316: DEBUG:  connection is still open
+2020-07-31 18:20:46,317: ERROR:  and bot is done.
+2020-07-31 18:20:46,596: DEBUG:  bot processed here ..33True
+2020-07-31 18:20:46,598: DEBUG:  connection is still open
+2020-07-31 18:20:46,600: ERROR:  and bot is done.
+2020-07-31 18:20:46,723: DEBUG:  bot processed here ..33True
+2020-07-31 18:20:46,723: DEBUG:  connection is still open
+2020-07-31 18:20:46,724: ERROR:  and bot is done.
+2020-08-01 03:35:41,536: DEBUG:  i am processing here..858855
+2020-08-01 03:35:41,538: ERROR:  and i am done.
+2020-08-01 03:35:41,870: DEBUG:  i am processing here..858855
+2020-08-01 03:35:41,871: ERROR:  and i am done.
+2020-08-01 03:35:42,017: DEBUG:  i am processing here..858855
+2020-08-01 03:35:42,017: ERROR:  and i am done.
+2020-08-01 03:35:42,434: DEBUG:  bot processed here ..33True
+2020-08-01 03:35:42,436: DEBUG:  connection is still open
+2020-08-01 03:35:42,437: ERROR:  and bot is done.
+2020-08-01 03:35:42,640: DEBUG:  bot processed here ..33True
+2020-08-01 03:35:42,641: DEBUG:  connection is still open
+2020-08-01 03:35:42,642: ERROR:  and bot is done.
+2020-08-01 03:35:42,852: DEBUG:  bot processed here ..33True
+2020-08-01 03:35:42,853: DEBUG:  connection is still open
+2020-08-01 03:35:42,854: ERROR:  and bot is done.
+2020-08-01 03:35:43,011: DEBUG:  bot processed here ..33True
+2020-08-01 03:35:43,012: DEBUG:  connection is still open
+2020-08-01 03:35:43,013: ERROR:  and bot is done.
+2020-08-01 03:35:43,175: DEBUG:  bot processed here ..33True
+2020-08-01 03:35:43,176: DEBUG:  connection is still open
+2020-08-01 03:35:43,177: ERROR:  and bot is done.
+2020-08-01 03:35:43,456: DEBUG:  bot processed here ..33True
+2020-08-01 03:35:43,457: DEBUG:  connection is still open
+2020-08-01 03:35:43,458: ERROR:  and bot is done.
+2020-08-01 03:35:43,617: DEBUG:  bot processed here ..33True
+2020-08-01 03:35:43,617: DEBUG:  connection is still open
+2020-08-01 03:35:43,618: ERROR:  and bot is done.
+2020-08-01 03:36:19,964: DEBUG:  bot processed here ..33False
+2020-08-01 03:36:19,966: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-08-01 03:36:19,981: ERROR: error in reconnectingconnect_error() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 277, in connect
+    engineio_path=socketio_path)
+  File "/usr/local/lib/python3.7/site-packages/engineio/client.py", line 190, in connect
+    url, headers, engineio_path)
+  File "/usr/local/lib/python3.7/site-packages/engineio/client.py", line 296, in _connect_polling
+    'Connection refused by the server')
+engineio.exceptions.ConnectionError: Connection refused by the server
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/workdir/utils/socket_static.py", line 74, in checkConnectivity
+    SocketStatic.SIO.connect('http://d_server:7000')
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 281, in connect
+    exc.args[1] if len(exc.args) > 1 else exc.args[0])
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+TypeError: connect_error() takes 0 positional arguments but 1 was given
+2020-08-01 03:36:19,983: DEBUG: Connected again !!, now sending data
+2020-08-01 03:36:19,984: ERROR:  and bot is done.
+2020-08-01 03:36:20,491: DEBUG:  bot processed here ..33False
+2020-08-01 03:36:20,492: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-08-01 03:36:20,508: ERROR: error in reconnectingconnect_error() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 277, in connect
+    engineio_path=socketio_path)
+  File "/usr/local/lib/python3.7/site-packages/engineio/client.py", line 190, in connect
+    url, headers, engineio_path)
+  File "/usr/local/lib/python3.7/site-packages/engineio/client.py", line 296, in _connect_polling
+    'Connection refused by the server')
+engineio.exceptions.ConnectionError: Connection refused by the server
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/workdir/utils/socket_static.py", line 74, in checkConnectivity
+    SocketStatic.SIO.connect('http://d_server:7000')
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 281, in connect
+    exc.args[1] if len(exc.args) > 1 else exc.args[0])
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+TypeError: connect_error() takes 0 positional arguments but 1 was given
+2020-08-01 03:36:20,509: DEBUG: Connected again !!, now sending data
+2020-08-01 03:36:20,510: ERROR:  and bot is done.
+2020-08-01 03:36:20,770: DEBUG:  bot processed here ..33False
+2020-08-01 03:36:20,771: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-08-01 03:36:20,786: ERROR: error in reconnectingconnect_error() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 277, in connect
+    engineio_path=socketio_path)
+  File "/usr/local/lib/python3.7/site-packages/engineio/client.py", line 190, in connect
+    url, headers, engineio_path)
+  File "/usr/local/lib/python3.7/site-packages/engineio/client.py", line 296, in _connect_polling
+    'Connection refused by the server')
+engineio.exceptions.ConnectionError: Connection refused by the server
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/workdir/utils/socket_static.py", line 74, in checkConnectivity
+    SocketStatic.SIO.connect('http://d_server:7000')
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 281, in connect
+    exc.args[1] if len(exc.args) > 1 else exc.args[0])
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+TypeError: connect_error() takes 0 positional arguments but 1 was given
+2020-08-01 03:36:20,788: DEBUG: Connected again !!, now sending data
+2020-08-01 03:36:20,789: ERROR:  and bot is done.
+2020-08-01 03:36:20,970: DEBUG:  bot processed here ..33False
+2020-08-01 03:36:20,971: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-08-01 03:36:20,985: ERROR: error in reconnectingconnect_error() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 277, in connect
+    engineio_path=socketio_path)
+  File "/usr/local/lib/python3.7/site-packages/engineio/client.py", line 190, in connect
+    url, headers, engineio_path)
+  File "/usr/local/lib/python3.7/site-packages/engineio/client.py", line 296, in _connect_polling
+    'Connection refused by the server')
+engineio.exceptions.ConnectionError: Connection refused by the server
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/workdir/utils/socket_static.py", line 74, in checkConnectivity
+    SocketStatic.SIO.connect('http://d_server:7000')
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 281, in connect
+    exc.args[1] if len(exc.args) > 1 else exc.args[0])
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+TypeError: connect_error() takes 0 positional arguments but 1 was given
+2020-08-01 03:36:20,986: DEBUG: Connected again !!, now sending data
+2020-08-01 03:36:20,987: ERROR:  and bot is done.
+2020-08-01 03:36:21,451: DEBUG:  i am processing here..858855
+2020-08-01 03:36:21,452: ERROR:  and i am done.
+2020-08-01 03:36:21,699: DEBUG:  i am processing here..858855
+2020-08-01 03:36:21,701: ERROR:  and i am done.
+2020-08-01 03:36:21,889: DEBUG:  i am processing here..858855
+2020-08-01 03:36:21,890: ERROR:  and i am done.
+2020-08-01 03:36:22,270: DEBUG:  bot processed here ..33False
+2020-08-01 03:36:22,271: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-08-01 03:36:22,308: ERROR: error in reconnectingconnect_error() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 277, in connect
+    engineio_path=socketio_path)
+  File "/usr/local/lib/python3.7/site-packages/engineio/client.py", line 190, in connect
+    url, headers, engineio_path)
+  File "/usr/local/lib/python3.7/site-packages/engineio/client.py", line 296, in _connect_polling
+    'Connection refused by the server')
+engineio.exceptions.ConnectionError: Connection refused by the server
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/workdir/utils/socket_static.py", line 74, in checkConnectivity
+    SocketStatic.SIO.connect('http://d_server:7000')
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 281, in connect
+    exc.args[1] if len(exc.args) > 1 else exc.args[0])
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+TypeError: connect_error() takes 0 positional arguments but 1 was given
+2020-08-01 03:36:22,309: DEBUG: Connected again !!, now sending data
+2020-08-01 03:36:22,310: ERROR:  and bot is done.
+2020-08-01 03:36:22,436: DEBUG:  bot processed here ..33False
+2020-08-01 03:36:22,436: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-08-01 03:36:22,447: ERROR: error in reconnectingconnect_error() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 277, in connect
+    engineio_path=socketio_path)
+  File "/usr/local/lib/python3.7/site-packages/engineio/client.py", line 190, in connect
+    url, headers, engineio_path)
+  File "/usr/local/lib/python3.7/site-packages/engineio/client.py", line 296, in _connect_polling
+    'Connection refused by the server')
+engineio.exceptions.ConnectionError: Connection refused by the server
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/workdir/utils/socket_static.py", line 74, in checkConnectivity
+    SocketStatic.SIO.connect('http://d_server:7000')
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 281, in connect
+    exc.args[1] if len(exc.args) > 1 else exc.args[0])
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+TypeError: connect_error() takes 0 positional arguments but 1 was given
+2020-08-01 03:36:22,448: DEBUG: Connected again !!, now sending data
+2020-08-01 03:36:22,449: ERROR:  and bot is done.
+2020-08-01 03:36:22,564: DEBUG:  bot processed here ..33False
+2020-08-01 03:36:22,564: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-08-01 03:36:22,574: ERROR: error in reconnectingconnect_error() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 277, in connect
+    engineio_path=socketio_path)
+  File "/usr/local/lib/python3.7/site-packages/engineio/client.py", line 190, in connect
+    url, headers, engineio_path)
+  File "/usr/local/lib/python3.7/site-packages/engineio/client.py", line 296, in _connect_polling
+    'Connection refused by the server')
+engineio.exceptions.ConnectionError: Connection refused by the server
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/workdir/utils/socket_static.py", line 74, in checkConnectivity
+    SocketStatic.SIO.connect('http://d_server:7000')
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 281, in connect
+    exc.args[1] if len(exc.args) > 1 else exc.args[0])
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+TypeError: connect_error() takes 0 positional arguments but 1 was given
+2020-08-01 03:36:22,575: DEBUG: Connected again !!, now sending data
+2020-08-01 03:36:22,576: ERROR:  and bot is done.
+2020-08-01 03:36:31,425: DEBUG:  bot processed here ..33False
+2020-08-01 03:36:31,426: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-08-01 03:36:31,445: ERROR: error in reconnectingconnect_error() takes 0 positional arguments but 1 was given
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 277, in connect
+    engineio_path=socketio_path)
+  File "/usr/local/lib/python3.7/site-packages/engineio/client.py", line 190, in connect
+    url, headers, engineio_path)
+  File "/usr/local/lib/python3.7/site-packages/engineio/client.py", line 296, in _connect_polling
+    'Connection refused by the server')
+engineio.exceptions.ConnectionError: Connection refused by the server
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/workdir/utils/socket_static.py", line 74, in checkConnectivity
+    SocketStatic.SIO.connect('http://d_server:7000')
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 281, in connect
+    exc.args[1] if len(exc.args) > 1 else exc.args[0])
+  File "/usr/local/lib/python3.7/site-packages/socketio/client.py", line 550, in _trigger_event
+    return self.handlers[namespace][event](*args)
+TypeError: connect_error() takes 0 positional arguments but 1 was given
+2020-08-01 03:36:31,446: DEBUG: Connected again !!, now sending data
+2020-08-01 03:36:31,447: ERROR:  and bot is done.
+2020-08-01 03:36:39,760: DEBUG:  bot processed here ..33False
+2020-08-01 03:36:39,762: DEBUG:  connection is closed now.. writing logic for reconnecting
+2020-08-01 03:36:39,793: DEBUG: Connected again !!, now sending data
+2020-08-01 03:36:39,794: ERROR:  and bot is done.
+2020-08-01 04:23:45,356: DEBUG:  i am processing here..858855
+2020-08-01 04:23:45,357: ERROR:  and i am done.
+2020-08-01 04:23:46,396: DEBUG:  bot processed here ..33True
+2020-08-01 04:23:46,398: DEBUG:  connection is still open
+2020-08-01 04:23:46,399: ERROR:  and bot is done.
